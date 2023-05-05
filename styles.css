@@ -1,0 +1,87 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+}
+.contentcontainer{
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+.inputcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.inputcontainer > input{
+    padding: 12px;
+    border: 1px solid #000000;
+    background-color: #d9d9d9;
+    flex: 1;
+    outline: none;
+}
+
+.inputcontainer > input::placeholder {
+    color: #000000;
+}
+
+.inputcontainer > button {
+    border: 2px solid #000000;
+    outline: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 0;
+    width: 200px;
+}
+
+.sortingbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.sortingbuttons button {
+    border: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 12px 0;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablecontainer {
+    width: 100%;
+}
+
+.tablecontainer table {
+    width: 100%;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+table td {
+    border: 1px solid #000000;
+    padding: 10px 10px;
+}
+
+img{
+    width: 25px;
+    border: .5px solid #000000;
+    border-radius: 50%;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+#tablem{
+    display:none;
+}
